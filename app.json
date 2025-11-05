@@ -11,9 +11,15 @@
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
+  
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+          "NSCameraUsageDescription": "Esta app requiere acceso a la cámara para tomar fotos.",
+          "NSLocationWhenInUseUsageDescription": "Se usa tu ubicación para mostrar contenido local.",
+          "NSMicrophoneUsageDescription": "Se requiere acceso al micrófono para grabar audio."
+      }
     },
     "android": {
       "adaptiveIcon": {
